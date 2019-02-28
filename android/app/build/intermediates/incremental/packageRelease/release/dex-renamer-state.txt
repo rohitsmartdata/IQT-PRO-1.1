@@ -1,0 +1,4 @@
+#Fri Jul 06 14:55:06 IST 2018
+base.0=/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/transforms/dex/release/0
+path.0=classes.dex
+renamed.0=classes.dex

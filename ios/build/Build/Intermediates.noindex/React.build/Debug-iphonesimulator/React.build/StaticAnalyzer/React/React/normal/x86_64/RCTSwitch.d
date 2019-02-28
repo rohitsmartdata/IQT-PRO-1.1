@@ -1,0 +1,15 @@
+dependencies: \
+  /Users/shipra/Documents/ReactNative/IQForm/node_modules/react-native/React/Views/RCTSwitch.m \
+  /Users/shipra/Documents/ReactNative/IQForm/node_modules/react-native/React/Views/RCTSwitch.h \
+  /Users/shipra/Documents/ReactNative/IQForm/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/shipra/Documents/ReactNative/IQForm/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/shipra/Documents/ReactNative/IQForm/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/shipra/Documents/ReactNative/IQForm/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/shipra/Documents/ReactNative/IQForm/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/shipra/Documents/ReactNative/IQForm/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/shipra/Documents/ReactNative/IQForm/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/shipra/Documents/ReactNative/IQForm/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/shipra/Documents/ReactNative/IQForm/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/shipra/Documents/ReactNative/IQForm/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/shipra/Documents/ReactNative/IQForm/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/shipra/Documents/ReactNative/IQForm/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h

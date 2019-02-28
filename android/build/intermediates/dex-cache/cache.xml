@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/node_modules/react-native-splash-screen/android/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8157618a5b248f10354e1dbfa44ddef9e617da42">
+        <dex dex="/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/transforms/preDex/release/25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/node_modules/react-native-vector-icons/android/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.3"
+        sha1="f2cf527de8d0bd35d72088fafea02395ba4a9eec">
+        <dex dex="/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/transforms/preDex/release/26.jar" />
+    </item>
+
+</items>

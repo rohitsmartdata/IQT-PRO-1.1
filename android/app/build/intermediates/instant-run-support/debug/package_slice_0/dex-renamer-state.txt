@@ -1,0 +1,4 @@
+#Tue Jul 31 12:00:02 IST 2018
+base.0=/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

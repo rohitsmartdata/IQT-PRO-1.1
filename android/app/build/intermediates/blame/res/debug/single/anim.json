@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/rohit.saini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f2a222fa3b8d555a31792ddeb3ad2ef/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/res/merged/debug/anim/catalyst_slide_up.xml",
+        "source": "/Users/rohit.saini/.gradle/caches/transforms-1/files-1.1/react-native-0.51.0.aar/5ce6bf90b07f2b41c4224f723055ecff/res/anim/catalyst_slide_up.xml"
+    },
+    {
+        "merged": "/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/res/merged/debug/anim/catalyst_slide_down.xml",
+        "source": "/Users/rohit.saini/.gradle/caches/transforms-1/files-1.1/react-native-0.51.0.aar/5ce6bf90b07f2b41c4224f723055ecff/res/anim/catalyst_slide_down.xml"
+    },
+    {
+        "merged": "/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/rohit.saini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f2a222fa3b8d555a31792ddeb3ad2ef/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/rohit.saini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f2a222fa3b8d555a31792ddeb3ad2ef/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/rohit.saini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f2a222fa3b8d555a31792ddeb3ad2ef/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/rohit.saini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f2a222fa3b8d555a31792ddeb3ad2ef/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/rohit.saini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f2a222fa3b8d555a31792ddeb3ad2ef/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/res/merged/debug/anim/catalyst_push_up_out.xml",
+        "source": "/Users/rohit.saini/.gradle/caches/transforms-1/files-1.1/react-native-0.51.0.aar/5ce6bf90b07f2b41c4224f723055ecff/res/anim/catalyst_push_up_out.xml"
+    },
+    {
+        "merged": "/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/res/merged/debug/anim/catalyst_push_up_in.xml",
+        "source": "/Users/rohit.saini/.gradle/caches/transforms-1/files-1.1/react-native-0.51.0.aar/5ce6bf90b07f2b41c4224f723055ecff/res/anim/catalyst_push_up_in.xml"
+    },
+    {
+        "merged": "/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/res/merged/debug/anim/catalyst_fade_out.xml",
+        "source": "/Users/rohit.saini/.gradle/caches/transforms-1/files-1.1/react-native-0.51.0.aar/5ce6bf90b07f2b41c4224f723055ecff/res/anim/catalyst_fade_out.xml"
+    },
+    {
+        "merged": "/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/res/merged/debug/anim/catalyst_fade_in.xml",
+        "source": "/Users/rohit.saini/.gradle/caches/transforms-1/files-1.1/react-native-0.51.0.aar/5ce6bf90b07f2b41c4224f723055ecff/res/anim/catalyst_fade_in.xml"
+    },
+    {
+        "merged": "/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/rohit.saini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f2a222fa3b8d555a31792ddeb3ad2ef/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/rohit.saini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f2a222fa3b8d555a31792ddeb3ad2ef/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/rohit.saini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f2a222fa3b8d555a31792ddeb3ad2ef/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/rohit.saini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f2a222fa3b8d555a31792ddeb3ad2ef/res/anim/abc_popup_enter.xml"
+    }
+]

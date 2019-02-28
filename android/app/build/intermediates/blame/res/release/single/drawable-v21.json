@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/rohit.saini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f2a222fa3b8d555a31792ddeb3ad2ef/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/rohit.saini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f2a222fa3b8d555a31792ddeb3ad2ef/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/rohit.saini/Documents/ReactNative/ClientProjects/IQForm/android/app/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/rohit.saini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f2a222fa3b8d555a31792ddeb3ad2ef/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    }
+]

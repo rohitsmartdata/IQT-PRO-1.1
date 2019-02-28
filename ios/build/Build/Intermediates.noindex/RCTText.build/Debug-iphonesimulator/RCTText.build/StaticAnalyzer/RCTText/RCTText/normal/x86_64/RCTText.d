@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/shipra/Documents/ReactNative/IQForm/node_modules/react-native/Libraries/Text/RCTText.m \
+  /Users/shipra/Documents/ReactNative/IQForm/node_modules/react-native/Libraries/Text/RCTText.h \
+  /Users/shipra/Documents/ReactNative/IQForm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/shipra/Documents/ReactNative/IQForm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/shipra/Documents/ReactNative/IQForm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/shipra/Documents/ReactNative/IQForm/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/shipra/Documents/ReactNative/IQForm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/shipra/Documents/ReactNative/IQForm/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/shipra/Documents/ReactNative/IQForm/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/shipra/Documents/ReactNative/IQForm/node_modules/react-native/Libraries/Text/RCTShadowText.h \
+  /Users/shipra/Documents/ReactNative/IQForm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/shipra/Documents/ReactNative/IQForm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/shipra/Documents/ReactNative/IQForm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/shipra/Documents/ReactNative/IQForm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/shipra/Documents/ReactNative/IQForm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/shipra/Documents/ReactNative/IQForm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/shipra/Documents/ReactNative/IQForm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/shipra/Documents/ReactNative/IQForm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/shipra/Documents/ReactNative/IQForm/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/shipra/Documents/ReactNative/IQForm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h
