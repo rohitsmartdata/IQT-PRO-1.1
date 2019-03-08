@@ -73,6 +73,7 @@ var language = ''
 /**
  * @language: this variable is used to store the selected language name .
  */
+
 var languageName = 'English'
 var flag = require('../../images/flagBritish.png')
 var languageList = [
@@ -100,22 +101,26 @@ const SECTIONS = [
     content: [
       {
         _id: '576786F6-C37B-4E9D-9E7D-78E73D8969F7',
-        title: { en: 'Airways Problems ', sv: 'Luftvägsproblem' }
+        title: { en: 'Airways Problems ', sv: 'Luftvägsproblem' },
+        count: 0
       },
       {
         _id: '2D3839AB-C151-4F9E-A693-2A07353F499C',
         title: {
           en: 'COPD Chronic Obtructive Pulmonary Disease',
           sv: 'KOL (Kronisk Obstruktiv Lungsjukdom)'
-        }
+        },
+        count: 0
       },
       {
         _id: '5B0E5E3C-3BA5-4D69-A083-19F8B87BED46',
-        title: { en: 'Nose Problems', sv: 'Näsproblem' }
+        title: { en: 'Nose Problems', sv: 'Näsproblem' },
+        count: 0
       },
       {
         _id: 'E4D9E502-D364-46B9-8F34-F113D74F293E',
-        title: { en: 'Throat Problems', sv: 'Halsproblem' }
+        title: { en: 'Throat Problems', sv: 'Halsproblem' },
+        count: 0
       }
     ],
     image: 'ios-arrow-forward',
@@ -128,7 +133,8 @@ const SECTIONS = [
       {
         _id: '0A7E6AA9-106F-460A-B41B-CC0CA45D887C',
         title: { en: 'Heart Problems', sv: 'Hjärtproblem' },
-        tags: ['1 Building']
+        tags: ['1 Building'],
+        count: 0
       }
     ],
     image: 'ios-arrow-forward',
@@ -143,11 +149,13 @@ const SECTIONS = [
     content: [
       {
         _id: '0657EFF5-E98B-4143-A116-2C9B731268F9',
-        title: { en: 'Stomach Problems', sv: 'Magproblem' }
+        title: { en: 'Stomach Problems', sv: 'Magproblem' },
+        count: 0
       },
       {
         _id: 'D7361E1C-8A39-4AFC-85A2-23D4C39DA9A3',
-        title: { en: 'Heart Burn', sv: 'Halsbränna' }
+        title: { en: 'Heart Burn', sv: 'Halsbränna' },
+        count: 0
       }
     ],
     image: 'ios-arrow-forward',
@@ -162,7 +170,8 @@ const SECTIONS = [
     content: [
       {
         _id: '173F6DB4-911D-4F5D-94E4-AF6A7EE98EC9',
-        title: { en: 'Ear Problems', sv: 'Öronproblem' }
+        title: { en: 'Ear Problems', sv: 'Öronproblem' },
+        count: 0
       }
     ],
     image: 'ios-arrow-forward',
@@ -177,7 +186,8 @@ const SECTIONS = [
     content: [
       {
         _id: '93B68D5E-E6FC-4BB5-9D98-BC6978733713',
-        title: { en: 'Eyes Problems', sv: 'Ögonproblem' }
+        title: { en: 'Eyes Problems', sv: 'Ögonproblem' },
+        count: 0
       }
     ],
     image: 'ios-arrow-forward',
@@ -192,7 +202,8 @@ const SECTIONS = [
     content: [
       {
         _id: 'E6CC56A3-9223-4AE1-A36F-9D3DD7742EF4',
-        title: { en: 'Urinary Problems', sv: 'Urinvägsproblem' }
+        title: { en: 'Urinary Problems', sv: 'Urinvägsproblem' },
+        count: 0
       }
     ],
     image: 'ios-arrow-forward',
@@ -207,15 +218,18 @@ const SECTIONS = [
     content: [
       {
         _id: '47657290-655A-49F4-B125-2EA46BF3F925',
-        title: { en: 'KEDS', sv: 'KEDS' }
+        title: { en: 'KEDS', sv: 'KEDS' },
+        count: 0
       },
       {
         _id: '0773395C-3607-4F2D-BF04-E18EB595ED9D',
-        title: { en: 'MADRS ', sv: 'MADRS' }
+        title: { en: 'MADRS ', sv: 'MADRS' },
+        count: 0
       },
       {
         _id: 'FF44E95F-CE1C-42A6-BD9F-B812462EFB0D',
-        title: { en: 'WAI ', sv: 'WAI' }
+        title: { en: 'WAI ', sv: 'WAI' },
+        count: 0
       }
     ],
     image: 'ios-arrow-forward',
@@ -230,7 +244,8 @@ const SECTIONS = [
     content: [
       {
         _id: '87946FF2-5352-4C8C-A4CD-3EFDB1CB668A',
-        title: { en: 'Diabetes Problems', sv: 'Diabetes' }
+        title: { en: 'Diabetes Problems', sv: 'Diabetes' },
+        count: 0
       }
     ],
     image: 'ios-arrow-forward',
@@ -245,25 +260,30 @@ const SECTIONS = [
     content: [
       {
         _id: '38CCD30D-303F-42B9-8140-4646E70EC543',
-        title: { en: 'Neck Problems', sv: 'Nackproblem' }
+        title: { en: 'Neck Problems', sv: 'Nackproblem' },
+        count: 0
       },
       {
         _id: '12206680-20B5-4323-86C9-4C23CF0C36D7',
-        title: { en: 'Shoulder Problems', sv: 'Skulderproblem' }
+        title: { en: 'Shoulder Problems', sv: 'Skulderproblem' },
+        count: 0
       },
 
       {
         _id: 'DC380CD1-AEA0-4099-92B4-F2D8F81674AA',
-        title: { en: 'Lower back Problems', sv: 'Ländryggsproblem ' }
+        title: { en: 'Lower back Problems', sv: 'Ländryggsproblem ' },
+        count: 0
       },
 
       {
         _id: '2D0D6C81-9041-469C-A018-D25185C1AD89',
-        title: { en: 'Knee Problems', sv: 'Knäproblem' }
+        title: { en: 'Knee Problems', sv: 'Knäproblem' },
+        count: 0
       },
       {
         _id: '3EFD9D07-7012-4ED2-BF81-24C723DD640E',
-        title: { en: 'Foot Problems', sv: 'Fotproblem' }
+        title: { en: 'Foot Problems', sv: 'Fotproblem' },
+        count: 0
       }
     ],
     image: 'ios-arrow-forward',
@@ -278,7 +298,8 @@ const SECTIONS = [
     content: [
       {
         _id: 'F76DD502-0BED-415B-A0E5-78B30C1427FF',
-        title: { en: 'Skin Problems', sv: 'Hudproblem' }
+        title: { en: 'Skin Problems', sv: 'Hudproblem' },
+        count: 0
       }
     ],
     image: 'ios-arrow-forward',
@@ -296,7 +317,8 @@ const SECTIONS = [
         title: {
           en: 'RVN Health Form',
           sv: 'RVN hälsoformulär'
-        }
+        },
+        count: 0
       }
     ],
     image: 'ios-arrow-forward',
@@ -412,6 +434,19 @@ class HomeScreen extends Component {
                     </Text>
                   </View>
                 </View>
+                {rowData.count > 0 ? (
+                  <View
+                    style={{
+                      margin: WINDOW_WIDTH / 30,
+                      backgroundColor: '#83BFBC',
+                      padding: 10,
+                      borderRadius: 20
+                    }}>
+                    <Text style={{ color: '#fff' }}>{rowData.count}</Text>
+                  </View>
+                ) : (
+                  <View />
+                )}
                 <Icon
                   style={{}}
                   name="ios-arrow-forward"
