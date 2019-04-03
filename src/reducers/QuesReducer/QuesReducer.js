@@ -13,7 +13,7 @@ import {
   AsyncStorage
 } from 'react-native'
 import { Actions, ActionConst } from 'react-native-router-flux'
-
+import { answeredQuestionId } from '../../containers/PersonalDetail/index'
 import {
   CREATE_QUES_SUCCESS,
   CREATE_QUES_FAIL,
@@ -24,6 +24,8 @@ import {
   SAVE_QUES_FAIL,
   ADDFORM_QUES_SUCCESS,
   ADDFORM_QUES_FAIL,
+  CREATE_HOMESCREEN_SUCCESS,
+  CREATE_HOMESCREEN_FAIL,
   NO_INTERNET_CONNECTION
 } from '../../actions/QuesActions/QuesActions'
 
@@ -33,8 +35,11 @@ const INITIAL_STATE = {
   diseaseList: [],
   addFormQuesDetails: []
 }
-
+var getValue = ''
 export default function(state = INITIAL_STATE, action) {
+  AsyncStorage.getItem('answeredQuestionArray').then(
+    value => (getValue = value)
+  )
   switch (action.type) {
     case CREATE_QUES_SUCCESS:
       AsyncStorage.setItem('createQuesId', action.payload._id)
@@ -46,7 +51,6 @@ export default function(state = INITIAL_STATE, action) {
         createQuesCheckPopPage: false
       }
     case CREATE_QUES_FAIL:
-      debugger
       return {
         ...state,
         isLoading: false,
@@ -105,6 +109,21 @@ export default function(state = INITIAL_STATE, action) {
           createQuesCheckPopPage: false
         }
       } else {
+        debugger
+
+        var answeredQuestionArray = [answeredQuestionId]
+
+        if (getValue) {
+          var value = JSON.parse(getValue)
+          value.push(answeredQuestionId)
+          AsyncStorage.setItem('answeredQuestionArray', JSON.stringify(value))
+        } else {
+          AsyncStorage.setItem(
+            'answeredQuestionArray',
+            JSON.stringify(answeredQuestionArray)
+          )
+        }
+
         Actions.root2({ type: ActionConst.RESET })
         return {
           ...state,
@@ -137,6 +156,21 @@ export default function(state = INITIAL_STATE, action) {
         loaderCheck: Math.random(),
         createQuesCheckPopPage: false
       }
+    case CREATE_HOMESCREEN_SUCCESS:
+      return {
+        ...state,
+        homeScreenList: action.payload,
+        internetCheck: false,
+        isLoading: false
+      }
+
+    case CREATE_HOMESCREEN_FAIL:
+      return {
+        ...state,
+        homeScreenFail: false,
+        internetCheck: true
+      }
+
     default:
       return state
   }

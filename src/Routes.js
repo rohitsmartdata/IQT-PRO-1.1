@@ -118,12 +118,12 @@ class RouterComponent extends Component {
     return (
       <Router>
         <Scene gesturesEnabled={false} hideNavBar>
-          <Scene
+          {/* <Scene
             gesturesEnabled={false}
             hideNavBar
             key="HomeScreen"
             component={HomeScreen}
-          />
+          /> */}
           {/*  <Scene gesturesEnabled={false} hideNavBar key="PersonalDetail" component={PersonalDetail} /> */}
 
           <Scene

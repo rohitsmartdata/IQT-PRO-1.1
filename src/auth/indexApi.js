@@ -6,6 +6,8 @@ export const BANKId_URL = 'https://auth.daking.se/bankid/auth'
 export const USER_DETAILS_URL = 'https://auth.daking.se/bankid/auth'
 export const PERSONAL_NO_URL = 'https://iqtriage.daking.se/person/'
 export const CREATE_DISEASE_LIST = 'https://iqtriage.daking.se/questionnaire'
+export const CREATE_HOMESCREEN_LIST =
+  'https://dev.iqtriage.daking.se/questionnaire_menu'
 //export const QUES_URL = 'https://iqtriage.daking.se/questionnaire/5b56f496ecec0e52ecec0e52/173F6DB4-911D-4F5D-94E4-AF6A7EE98EC9/all'
 // export const QUES_URL = 'https://iqtriage.daking.se/questionnaire/5b56f4d6ecec0e52edec0e52/0A7E6AA9-106F-460A-B41B-CC0CA45D887C/all'
 // export const QUES_URL = 'https://iqtriage.daking.se/questionnaire/5b56f4f5ecec0e52eeec0e52/576786F6-C37B-4E9D-9E7D-78E73D8969F7/all'

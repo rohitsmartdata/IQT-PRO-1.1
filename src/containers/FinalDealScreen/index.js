@@ -74,9 +74,12 @@ class FinalDealScreen extends Component {
     if (active) {
       console.log(active)
     } else {
+      debugger
       AsyncStorage.setItem('name', '')
       AsyncStorage.setItem('createQuesId', '')
       AsyncStorage.setItem('againQuesCheck', '')
+      AsyncStorage.setItem('answeredQuestionArray', '')
+
       Actions.root1({ type: ActionConst.RESET })
     }
   }

@@ -34,9 +34,11 @@ export class LogoutModal extends Component {
     this.setState({ logoutModal: true })
   }
   logout() {
+    debugger
     AsyncStorage.setItem('name', '')
     AsyncStorage.setItem('createQuesId', '')
     AsyncStorage.setItem('againQuesCheck', '')
+    AsyncStorage.setItem('answeredQuestionArray', '')
     Actions.root1({ type: ActionConst.RESET })
   }
   render() {

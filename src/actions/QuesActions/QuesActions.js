@@ -1,12 +1,17 @@
 import { QUES_URL } from '../../auth/indexApi'
 import { Alert } from 'react-native'
-import { CREATE_DISEASE_LIST } from '../../auth/indexApi'
+import {
+  CREATE_DISEASE_LIST,
+  CREATE_HOMESCREEN_LIST
+} from '../../auth/indexApi'
 export const CREATE_QUES_SUCCESS = 'CREATE_QUES_success'
 export const CREATE_QUES_FAIL = 'CREATE_QUES_fail'
 export const GET_QUES_SUCCESS = 'GET_QUES_success'
 export const GET_QUES_FAIL = 'GET_QUES_fail'
 export const SAVE_QUES_SUCCESS = 'SAVE_QUES_success'
 export const SAVE_QUES_FAIL = 'SAVE_QUES_fail'
+export const CREATE_HOMESCREEN_SUCCESS = 'CREATE_HOMESCREEN_success'
+export const CREATE_HOMESCREEN_FAIL = 'CREATE_HOMESCREEN_fail'
 export const NO_INTERNET_CONNECTION = 'NO_INTERNET_connection'
 export const CLEAR_QUES_DATA = 'CLEAR_QUES_data'
 
@@ -155,6 +160,43 @@ export const saveQues = (requestJSON, apiValue) => {
 
         dispatch({
           type: SAVE_QUES_FAIL
+        })
+      })
+  }
+}
+
+export const getHomeScreenList = requestJSON => {
+  return function(dispatch) {
+    const request = {
+      method: 'GET',
+      body: requestJSON,
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    }
+    fetch(CREATE_HOMESCREEN_LIST, request)
+      .then(function(response) {
+        console.log('REsponse', response)
+        if (response.status !== 200) {
+          throw new Error(response.json())
+        }
+        return response.json()
+      })
+      .then(responseJson => {
+        if (responseJson._id == '') {
+          throw new Error(responseJson.message)
+        } else {
+          dispatch({
+            type: CREATE_HOMESCREEN_SUCCESS,
+            payload: responseJson
+          })
+        }
+      })
+      .catch(error => {
+        console.log(error)
+
+        dispatch({
+          type: CREATE_HOMESCREEN_FAIL
         })
       })
   }

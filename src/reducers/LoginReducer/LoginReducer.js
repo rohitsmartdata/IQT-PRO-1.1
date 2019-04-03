@@ -76,9 +76,11 @@ export default function(state = INITIAL_STATE, action) {
         internetCheck: true
       }
     case LOGOUT_SUCCESS:
+      debugger
       AsyncStorage.setItem('name', '')
       AsyncStorage.setItem('createQuesId', '')
       AsyncStorage.setItem('againQuesCheck', '')
+      AsyncStorage.setItem('answeredQuestionArray', '')
       Actions.root1({ type: ActionConst.RESET })
       return {
         ...state,

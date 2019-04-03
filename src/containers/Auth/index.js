@@ -40,14 +40,14 @@ var languageName = 'English'
 var flag = require('../../images/flagBritish.png')
 var languageList = [
   {
-    languages: { en: 'English', sv: 'Engelska' },
+    languages: { en: 'English', sv: 'English' },
     code: 'en',
     status: true,
     flagImage: require('../../images/flagBritish.png')
   },
 
   {
-    languages: { en: 'Swedish', sv: 'Svenska' },
+    languages: { en: 'Svenska', sv: 'Svenska' },
     code: 'sv',
     status: false,
     flagImage: require('../../images/flagSwedish.png')
@@ -92,10 +92,12 @@ export default class Auth extends Component {
         languageList[i].status = false
       }
     }
+    debugger
     this.setState({ abc: 'a' })
     AsyncStorage.setItem('name', '')
     AsyncStorage.setItem('createQuesId', '')
     AsyncStorage.setItem('againQuesCheck', '')
+    AsyncStorage.setItem('answeredQuestionArray', '')
   }
 
   componentDidMount() {

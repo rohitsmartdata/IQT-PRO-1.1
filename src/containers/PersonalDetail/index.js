@@ -131,6 +131,11 @@ var language = ''
 /**
  * @language: this variable is used to store the selected language name .
  */
+
+
+
+export var answeredQuestionId = '1'
+
 var languageName = ''
 var flag = require('../../images/flagBritish.png')
 /**
@@ -139,14 +144,15 @@ var flag = require('../../images/flagBritish.png')
 var outputArr = {}
 var languageList = [
   {
-    languages: { en: 'English', sv: 'Engelska' },
+    languages: { en: 'English', sv: 'English' },
     code: 'en',
     status: true,
     flagImage: require('../../images/flagBritish.png')
   },
 
   {
-    languages: { en: 'Swedish', sv: 'Svenska' },
+    languages: { en: 'Svenska', sv: 'Svenska' },
+  
     code: 'sv',
     status: false,
     flagImage: require('../../images/flagSwedish.png')
@@ -212,6 +218,7 @@ class PersonalDetail extends Component {
     this._renderItem = this._renderItem.bind(this)
     this.searchCountry = this.searchCountry.bind(this)
   }
+
   /**
    * @onDateChange: This function performs actions on change in date from calendar.
    * @param {represents the latest date we receive from calendar} date
@@ -246,7 +253,7 @@ class PersonalDetail extends Component {
    * @selectDate: This function represents the action performed on click from calendar
    */
   selectDate() {
-    debugger
+    
     if (this.state.selectedStartDate == 'YYYY/MM/DD') {
       this.dropdown.alertWithType(
         'success',
@@ -290,7 +297,7 @@ class PersonalDetail extends Component {
   }
 
   searchCountry(search) {
-    debugger
+    
     if (search === '') {
       this.setState({ data: countriesData.data })
     } else {
@@ -319,10 +326,12 @@ class PersonalDetail extends Component {
   onAction = active => {
     if (active) {
     } else {
+      debugger
       if (Actions.currentScene == 'PersonalDetail') {
         AsyncStorage.setItem('name', '')
         AsyncStorage.setItem('createQuesId', '')
         AsyncStorage.setItem('againQuesCheck', '')
+        AsyncStorage.setItem('answeredQuestionArray', '')
         Actions.root1({ type: ActionConst.RESET })
       }
     }
@@ -1613,6 +1622,8 @@ class PersonalDetail extends Component {
     }
   }
   submitButtonFun(value) {
+    answeredQuestionId = this.state.quesId
+    
     this.setState({ btnValidation: true })
     this.props.saveQues(
       JSON.stringify(value),
@@ -1636,7 +1647,7 @@ class PersonalDetail extends Component {
    * @componentWillMount:- Represents the life cycle.componentWillMount is called before the render method is executed
    */
   componentWillMount() {
-    debugger
+    
     this.props.apiValue
     for (i = 0; i < languageList.length; i++) {
       if (languageList[i].code == strings.getLanguage()) {
@@ -1718,7 +1729,7 @@ class PersonalDetail extends Component {
   componentWillReceiveProps(Props) {
     if (Props.loaderCheck) {
       if (Props.internetCheck) {
-        debugger
+        
         this.dropdown.alertWithType(
           'error',
           strings.noInternet,
@@ -1742,7 +1753,7 @@ class PersonalDetail extends Component {
 
     if (Props.createQuesDetails._id) {
       this.setState({ createQuesId: Props.createQuesDetails._id })
-      debugger
+      
       this.props.getQues(
         'https://iqtriage.daking.se/questionnaire/' +
           Props.createQuesDetails._id +
@@ -1754,7 +1765,7 @@ class PersonalDetail extends Component {
     }
     if (Props.addFormQuesDetails._id) {
       this.setState({ createQuesId: Props.addFormQuesDetails._id })
-      debugger
+      
       this.props.getQues(
         'https://iqtriage.daking.se/questionnaire/' +
           Props.addFormQuesDetails._id +
@@ -1771,6 +1782,7 @@ class PersonalDetail extends Component {
         createQuesId: Props.saveQuesDetails.id,
         quesId: Props.saveQuesDetails.form_id
       })
+     
       quesDetails
 
       userQues = []
@@ -1791,7 +1803,7 @@ class PersonalDetail extends Component {
 
       outputArr = {}
       nestedArrCheck = []
-      debugger
+      
       this.props.getQues(
         'https://iqtriage.daking.se/questionnaire/' +
           Props.saveQuesDetails.id +
